@@ -1,0 +1,98 @@
+woocommerce_api_key:
+  table: woocommerce_api_keys
+  id: key_id
+  references:
+    user_id: user
+
+woocommerce_attribute_taxonomy:
+  table: woocommerce_attribute_taxonomies
+  id: attribute_id
+
+woocommerce_downloadable_product_permission:
+  table: woocommerce_downloadable_product_permissions
+  id: permission_id
+  references:
+    product_id: post
+    order_id: post
+    user_id: user
+
+woocommerce_order_item:
+  table: woocommerce_order_items
+  id: order_item_id
+  references:
+    order_id: post
+
+woocommerce_order_itemmeta:
+  id: meta_id
+  parent-reference: order_item_id
+  references:
+    order_item_id: woocommerce_order_item
+  value-references:
+    meta_key@meta_value:
+      _product_id: post
+      _variation_id: post
+
+woocommerce_payment_token:
+  table: woocommerce_payment_tokens
+  id: token_id
+  references:
+    user_id: user
+
+woocommerce_payment_tokenmeta:
+  id: meta_id
+  parent-reference: payment_token_id
+  references:
+    payment_token_id: woocommerce_payment_token
+
+woocommerce_shipping_zone:
+  table: woocommerce_shipping_zones
+  id: zone_id
+
+woocommerce_shipping_zone_location:
+  table: woocommerce_shipping_zone_locations
+  id: location_id
+  references:
+    zone_id: woocommerce_shipping_zone
+
+woocommerce_shipping_zone_method:
+  table: woocommerce_shipping_zone_methods
+  id: instance_id
+  references:
+    zone_id: woocommerce_shipping_zone
+
+woocommerce_tax_rate:
+  table: woocommerce_tax_rates
+  id: tax_rate_id
+
+woocommerce_tax_rate_location:
+  table: woocommerce_tax_rate_locations
+  id: location_id
+  references:
+    tax_rate_id: woocommerce_tax_rate
+
+termmeta:
+  value-references:
+    meta_key@meta_value:
+      thumbnail_id: post
+
+postmeta:
+  value-references:
+    meta_key@meta_value:
+      _upsell_ids[/\d+/]: post
+      _crosssell_ids[/\d+/]: post
+      _product_image_gallery: post
+      _min_price_variation_id: post
+      _max_price_variation_id: post
+      _min_regular_price_variation_id: post
+      _max_regular_price_variation_id: post
+      _min_sale_price_variation_id: post
+      _max_sale_price_variation_id: post
+
+option:
+  value-references:
+    option_name@option_value:
+      woocommerce_shop_page_id: post
+      woocommerce_cart_page_id: post
+      woocommerce_checkout_page_id: post
+      woocommerce_terms_page_id: post
+      woocommerce_myaccount_page_id: post
