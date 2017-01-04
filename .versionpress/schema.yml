@@ -87,6 +87,7 @@ postmeta:
       _max_regular_price_variation_id: post
       _min_sale_price_variation_id: post
       _max_sale_price_variation_id: post
+      _customer_user: user
 
 option:
   value-references:
