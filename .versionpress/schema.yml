@@ -96,3 +96,9 @@ option:
       woocommerce_checkout_page_id: post
       woocommerce_terms_page_id: post
       woocommerce_myaccount_page_id: post
+
+usermeta:
+  value-references:
+    meta_key@meta_value:
+      _woocommerce_persistent_cart["cart"][/.*/]["product_id"]: post
+      _woocommerce_persistent_cart["cart"][/.*/]["variation_id"]: post
