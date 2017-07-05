@@ -44,6 +44,14 @@ woocommerce_payment_tokenmeta:
   references:
     payment_token_id: woocommerce_payment_token
 
+woocommerce_session:
+  table: woocommerce_sessions
+  id: session_id
+  value-references:
+    session_key@session_value:
+      "*[\"cart\"]..[/.*/][\"product_id\"]": post
+      "*[\"cart\"]..[/.*/][\"variation_id\"]": post
+
 woocommerce_shipping_zone:
   table: woocommerce_shipping_zones
   id: zone_id
