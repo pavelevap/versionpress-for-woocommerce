@@ -1,103 +1,103 @@
 woocommerce_api_key:
   actions:
     create: Created WooCommerce API key
-    edit:
-      message: Edited WooCommerce API key
+    update:
+      message: Updated WooCommerce API key
       priority: 12
     delete: Deleted WooCommerce API key
 
 woocommerce_attribute_taxonomy:
   actions:
     create: Created WooCommerce attribute taxonomy
-    edit:
-      message: Edited WooCommerce attribute taxonomy
+    update:
+      message: Updated WooCommerce attribute taxonomy
       priority: 12
     delete: Deleted WooCommerce attribute taxonomy
 
 woocommerce_downloadable_product_permission:
   actions:
     create: Created WooCommerce downloadable product permission
-    edit:
-      message: Edited WooCommerce downloadable product permission
+    update:
+      message: Updated WooCommerce downloadable product permission
       priority: 12
     delete: Deleted WooCommerce downloadable product permission
 
 woocommerce_order_item:
   actions:
     create: Created WooCommerce order item
-    edit:
-      message: Edited WooCommerce order item
+    update:
+      message: Updated WooCommerce order item
       priority: 12
     delete: Deleted WooCommerce order item
 
 woocommerce_order_itemmeta:
   actions:
     create: Created WooCommerce order itemmeta
-    edit:
-      message: Edited WooCommerce order itemmeta
+    update:
+      message: Updated WooCommerce order itemmeta
       priority: 12
     delete: Deleted WooCommerce order itemmeta
 
 woocommerce_payment_token:
   actions:
     create: Created WooCommerce payment token
-    edit:
-      message: Edited WooCommerce payment token
+    update:
+      message: Updated WooCommerce payment token
       priority: 12
     delete: Deleted WooCommerce payment token
 
 woocommerce_payment_tokenmeta:
   actions:
     create: Created WooCommerce payment tokenmeta
-    edit:
-      message: Edited WooCommerce payment tokenmeta
+    update:
+      message: Updated WooCommerce payment tokenmeta
       priority: 12
     delete: Deleted WooCommerce payment tokenmeta
 
 woocommerce_shipping_zone:
   actions:
     create: Created WooCommerce shipping zone
-    edit:
-      message: Edited WooCommerce shipping zone
+    update:
+      message: Updated WooCommerce shipping zone
       priority: 12
     delete: Deleted WooCommerce shipping zone
 
 woocommerce_session:
   actions:
     create: Created WooCommerce session
-    edit:
-      message: Edited WooCommerce session
+    update:
+      message: Updated WooCommerce session
       priority: 12
     delete: Deleted WooCommerce session
 
 woocommerce_shipping_zone_location:
   actions:
     create: Created WooCommerce shipping zone location
-    edit:
-      message: Edited WooCommerce shipping zone location
+    update:
+      message: Updated WooCommerce shipping zone location
       priority: 12
     delete: Deleted WooCommerce shipping zone location
 
 woocommerce_shipping_zone_method:
   actions:
     create: Created WooCommerce shipping zone method
-    edit:
-      message: Edited WooCommerce shipping zone method
+    update:
+      message: Updated WooCommerce shipping zone method
       priority: 12
     delete: Deleted WooCommerce shipping zone method
 
 woocommerce_tax_rate:
   actions:
     create: Created WooCommerce tax rate
-    edit:
-      message: Edited WooCommerce tax rate
+    update:
+      message: Updated WooCommerce tax rate
       priority: 12
     delete: Deleted WooCommerce tax rate
 
 woocommerce_tax_rate_location:
   actions:
     create: Created WooCommerce tax rate location
-    edit:
-      message: Edited WooCommerce tax rate location
+    update:
+      message: Updated WooCommerce tax rate location
       priority: 12
     delete: Deleted WooCommerce tax rate location
