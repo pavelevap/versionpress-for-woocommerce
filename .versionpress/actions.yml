@@ -62,6 +62,14 @@ woocommerce_shipping_zone:
       priority: 12
     delete: Deleted WooCommerce shipping zone
 
+woocommerce_session:
+  actions:
+    create: Created WooCommerce session
+    edit:
+      message: Edited WooCommerce session
+      priority: 12
+    delete: Deleted WooCommerce session
+
 woocommerce_shipping_zone_location:
   actions:
     create: Created WooCommerce shipping zone location
